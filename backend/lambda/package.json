@@ -1,0 +1,8 @@
+﻿{
+  "name": "minishop-lambda",
+  "version": "1.0.0",
+  "description": "Lambda functions for MiniShop",
+  "dependencies": {
+    "aws-sdk": "^2.1691.0"
+  }
+}

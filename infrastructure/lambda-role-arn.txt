@@ -1,0 +1,1 @@
+﻿arn:aws:iam::557433908403:role/MiniShop-Lambda-Role
