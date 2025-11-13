@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniShop - Cửa hàng điện tử</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <h1>🛒 MiniShop</h1>
+                </div>
+                <div class="nav-menu">
+                    <a href="index.html" class="active">Sản phẩm</a>
+                    <a href="cart.html">Giỏ hàng (<span id="cart-count">0</span>)</a>
+                    <a href="orders.html">Đơn hàng</a>
+                    <a href="login.html" id="auth-link">Đăng nhập</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Sản phẩm nổi bật</h2>
+            <p>Khám phá các sản phẩm công nghệ mới nhất</p>
+        </section>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Đang tải sản phẩm...</p>
+        </div>
+
+        <div id="error" class="error" style="display: none;">
+            <p>Không thể tải sản phẩm. Vui lòng thử lại sau.</p>
+        </div>
+
+        <div id="products-grid" class="products-grid"></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MiniShop - Đồ án Điện toán đám mây</p>
+        </div>
+    </footer>
+
+    <script src="js/aws-config.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>
