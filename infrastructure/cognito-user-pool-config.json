@@ -1,0 +1,25 @@
+{
+    "PoolName": "MiniShopUserPool",
+    "Policies": {
+        "PasswordPolicy": {
+            "MinimumLength": 8,
+            "RequireUppercase": false,
+            "RequireLowercase": true,
+            "RequireNumbers": true,
+            "RequireSymbols": false
+        }
+    },
+    "AutoVerifiedAttributes": ["email"],
+    "UsernameAttributes": ["email"],
+    "UsernameConfiguration": {
+        "CaseSensitive": false
+    },
+    "Schema": [
+        {
+            "Name": "email",
+            "AttributeDataType": "String",
+            "Required": true,
+            "Mutable": true
+        }
+    ]
+}

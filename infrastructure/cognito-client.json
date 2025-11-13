@@ -1,0 +1,20 @@
+﻿{
+    "UserPoolClient": {
+        "UserPoolId": "ap-southeast-1_O4GWbgM7y",
+        "ClientName": "MiniShopWebClient",
+        "ClientId": "51q67e7j9g607g1trfckeqa99e",
+        "LastModifiedDate": "2025-11-13T08:33:37.151000+07:00",
+        "CreationDate": "2025-11-13T08:33:37.151000+07:00",
+        "RefreshTokenValidity": 30,
+        "TokenValidityUnits": {},
+        "ExplicitAuthFlows": [
+            "ALLOW_USER_PASSWORD_AUTH",
+            "ALLOW_USER_SRP_AUTH",
+            "ALLOW_REFRESH_TOKEN_AUTH"
+        ],
+        "AllowedOAuthFlowsUserPoolClient": false,
+        "EnableTokenRevocation": true,
+        "EnablePropagateAdditionalUserContextData": false,
+        "AuthSessionValidity": 3
+    }
+}
